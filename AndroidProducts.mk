@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_lemonades.mk
+    $(LOCAL_DIR)/twrp_spartan.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_lemonades-user \
-    twrp_lemonades-userdebug \
-    twrp_lemonades-eng
+    twrp_spartan-eng

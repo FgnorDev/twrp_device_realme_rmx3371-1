@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from lemonades device
-$(call inherit-product, device/oneplus/lemonades/device.mk)
+# Inherit from spartan device
+$(call inherit-product, device/oneplus/spartan/device.mk)
 
-PRODUCT_DEVICE := lemonades
-PRODUCT_NAME := twrp_lemonades
-PRODUCT_BRAND := oneplus
-PRODUCT_MODEL := LE2101
-PRODUCT_MANUFACTURER := oneplus
+PRODUCT_DEVICE := spartan
+PRODUCT_NAME := twrp_spartan
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := GT NEO 3T
+PRODUCT_MANUFACTURER := realme
