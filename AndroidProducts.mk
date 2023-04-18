@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_spartan.mk
+    $(LOCAL_DIR)/omni_spartan.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_spartan-eng
+    omni_spartan-eng
