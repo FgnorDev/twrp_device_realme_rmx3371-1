@@ -20,13 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Inherit some common twrp stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from spartan device
 $(call inherit-product, device/oneplus/spartan/device.mk)
 
 PRODUCT_DEVICE := spartan
-PRODUCT_NAME := twrp_spartan
+PRODUCT_NAME :omni_spartan
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := GT NEO 3T
 PRODUCT_MANUFACTURER := realme
